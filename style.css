@@ -19,3 +19,46 @@
     border-radius: 8px;
     cursor: pointer;
 }
+.cat1 {
+    background-image: linear-gradient(180deg, #FFA531, orange);
+}
+.cat2 {
+    background-image: linear-gradient(180deg, #FF589B,#FF3A87);
+}
+.cat3 {
+    background-image: linear-gradient(180deg, #3F07F8,#3F0DF8);
+}
+.cat1, .cat2, .cat3 {
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories h1 {
+    color: white;
+}
+.categories img {
+    width: 100px;
+}
+.see {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+.see:hover {
+    text-decoration: none;
+    color: red;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+#Contact {
+    height: 300px;
+}
+#Contact h6 {
+    color: gray;
+}
